@@ -781,7 +781,7 @@ header .menu .item a:hover {
 
 
 .callback {
-    padding-bottom: 136px;
+    padding-bottom: 43px;
 }
 .callback_title {
     margin-bottom: 141px;
@@ -978,26 +978,13 @@ header .menu .item a:hover {
     display: flex;
     align-items: center;
     justify-content: flex-start;    
-    /* -webkit-transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
 	-moz-transform: skew(-20deg);
-	-o-transform: skew(-20deg);      */
-
-    /* margin-right: -100px; */
-}
-
-.step_item-icon:before {
-    position: absolute;
-    content: "";
+	-o-transform: skew(-20deg);    
     width: 224px;
     height: 100%;
     background: var(--text_color);
-    right: -100px;
-    top: 0;
-    border-radius: 20px;
-    -webkit-transform: skew(-20deg);
-	-moz-transform: skew(-20deg);
-	-o-transform: skew(-20deg);   
-    z-index: -1;
+    margin-right: -115px;
 }
 .step_item-title {
     color: #4E4E4E;
@@ -1006,15 +993,22 @@ header .menu .item a:hover {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: calc(100% - 200px);
+    width: calc(100% - 170px);
+    padding-bottom: 20px;
 }
 .step_item-icon img {
     display: block;
-    margin-left: -700px;
+    margin-left: 30px;
+    -webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);   
 }
 .step_item-icon span {
     display: block;
-    margin-left: -70px;
+    margin-left: 40px;
+    -webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);   
 }
 
 
@@ -1070,7 +1064,7 @@ footer .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: calc(100% - 353px);
+    width: calc(100% - 801px);
 }
 footer .menu .item a {
     text-decoration: none;
