@@ -565,7 +565,7 @@ header .menu .item a:hover {
 
 
 .training {
-    padding-bottom: 99px;
+    padding-bottom: 140px;
 }
 .title {
     color: #3F3F3F;
@@ -727,19 +727,19 @@ header .menu .item a:hover {
 }
 .plan_top-item {
     border-radius: 32px;
-    background: #224FD6;
+    background: var(--text_color);
     padding: 36px;
     color: #FFF;
-    font-family: "Raleway";
-    font-size: 22px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 400;
     line-height: normal;    
 }
 .plan_subtitle {
     color: #4E4E4E;
-    font-family: "Raleway";
-    font-size: 22px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -754,11 +754,11 @@ header .menu .item a:hover {
 }
 .plan_bottom-item {
     border-radius: 32px;
-    background: #224FD6;
+    background: var(--text_color);
     padding: 36px;
     color: #FFF;
-    font-family: "Raleway";
-    font-size: 22px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 400;
     line-height: normal;    
@@ -970,7 +970,7 @@ header .menu .item a:hover {
 } 
 .step_item-icon {
     color: #FFF;
-    font-family: "Raleway";
+    font-family: var(--font_family2);
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -988,8 +988,8 @@ header .menu .item a:hover {
 }
 .step_item-title {
     color: #4E4E4E;
-    font-family: "Raleway";
-    font-size: 22px;
+    font-family: var(--font_family2);
+    font-size: var(--font_size);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1012,6 +1012,86 @@ header .menu .item a:hover {
 }
 
 
+
+
+.price {
+    margin-bottom: 145px;
+    position: relative;
+    z-index: 1;
+}
+.price:before {
+    position: absolute;
+    content: "";
+    width: 1099px;
+    height: calc(100% + 180px);
+    background: var(--text_color);
+    left: -660px;
+    top: -90px;
+    border-radius: 20px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    z-index: 0;
+}
+.price:after {
+    position: absolute;
+    content: "";
+    width: 1099px;
+    height: calc(100% + 180px);
+    background: var(--text_color);
+    right: -700px;
+    top: -90px;
+    border-radius: 20px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    z-index: 1;
+}
+.price_wrap {
+    display: flex;
+    gap: 46px;
+}
+.price_info {
+    margin-left: 412px;
+}
+.price_title {
+    margin-left: 60px;
+    color: #000;
+    font-size: var(--font_size_title);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font_family1);
+    margin-bottom: 10px;
+}
+.price_title span {
+    color: #fff;
+}
+.price_summa {
+    color: var(--text_color);
+    font-family: var(--font_family1);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+.price_category {
+    color: var(--text_color);
+    font-family: var(--font_family1);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 31px;
+}
+.btn {
+}
+.scroll {
+}
+.price_img {
+    z-index: 2;
+}
 
 
 
