@@ -565,7 +565,7 @@ header .menu .item a:hover {
 
 
 .training {
-    padding-bottom: 140px;
+    padding-bottom: 109px;
 }
 .title {
     color: #3F3F3F;
@@ -799,10 +799,10 @@ header .menu .item a:hover {
     background: var(--text_color);
     left: -950px;
     top: -90px;
-    border-radius: 20px;
-    -webkit-transform: skew(-20deg);
-	-moz-transform: skew(-20deg);
-	-o-transform: skew(-20deg);      
+    border-radius: 63px;
+    -webkit-transform: skew(-16deg);
+	-moz-transform: skew(-16deg);
+	-o-transform: skew(-16deg);      
     z-index: -1;
 }
 .callback_wrap:after {
@@ -813,10 +813,10 @@ header .menu .item a:hover {
     background: var(--text_color);
     right: -950px;
     top: -90px;
-    border-radius: 20px;
-    -webkit-transform: skew(-20deg);
-	-moz-transform: skew(-20deg);
-	-o-transform: skew(-20deg);      
+    border-radius: 63px;
+    -webkit-transform: skew(-16deg);
+	-moz-transform: skew(-16deg);
+	-o-transform: skew(-16deg);      
     z-index: -1;
 }
 .callback_form {
@@ -1015,36 +1015,38 @@ header .menu .item a:hover {
 
 
 .price {
-    margin-bottom: 145px;
     position: relative;
     z-index: 1;
+    padding: 20px 0 48px;
+    margin-bottom: 87px;
+    background: #fff;
 }
 .price:before {
     position: absolute;
     content: "";
     width: 1099px;
-    height: calc(100% + 180px);
+    height: calc(100% + 110px);
     background: var(--text_color);
-    left: -660px;
-    top: -90px;
-    border-radius: 20px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
+    left: -625px;
+    top: -60px;
+    border-radius: 63px;
+    -webkit-transform: skew(-16deg);
+    -moz-transform: skew(-16deg);
+    -o-transform: skew(-16deg);
     z-index: 0;
 }
 .price:after {
     position: absolute;
     content: "";
     width: 1099px;
-    height: calc(100% + 180px);
+    height: calc(100% + 110px);
     background: var(--text_color);
     right: -700px;
-    top: -90px;
-    border-radius: 20px;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
+    top: -60px;
+    border-radius: 63px;
+    -webkit-transform: skew(-16deg);
+    -moz-transform: skew(-16deg);
+    -o-transform: skew(-16deg);
     z-index: 1;
 }
 .price_wrap {
@@ -1052,7 +1054,7 @@ header .menu .item a:hover {
     gap: 46px;
 }
 .price_info {
-    margin-left: 412px;
+    margin-left: 424px;
 }
 .price_title {
     margin-left: 60px;
@@ -1073,7 +1075,7 @@ header .menu .item a:hover {
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.2;
     white-space: nowrap;
 }
 .price_category {
@@ -1085,12 +1087,9 @@ header .menu .item a:hover {
     line-height: normal;
     margin-bottom: 31px;
 }
-.btn {
-}
-.scroll {
-}
 .price_img {
     z-index: 2;
+    margin-top: -117px;
 }
 
 
