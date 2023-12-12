@@ -150,16 +150,14 @@
     .price:after {
         border-radius: 36px;
         right: -975px;
-        top: 40%;
-    }
-    .btn-mob {
-        margin: 12px auto 0;
-        z-index: 1000;
-        position: relative;
-        width: 100%;
+        top: 35%;
     }
     .price {
         padding-bottom: 50px;
+    }
+    .btn-mob {
+        z-index: 1000;
+        position: relative;
     }
 
 

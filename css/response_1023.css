@@ -173,7 +173,7 @@
         width: 100%;
     }
     .program_item + .program_item {
-        margin-top: 20px;
+        margin-top: 8px;
     }
     .step_item:nth-child(1),
     .step_item:nth-child(2),

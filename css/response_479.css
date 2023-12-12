@@ -124,6 +124,14 @@
     .program_item:before {
         right: -82%;
     }
+    .program_item-icon {
+        margin-right: 40px;
+    }
+    .btn-mob {
+        margin: 12px auto 0;
+        position: relative;
+        width: 100%;
+    }
     
 
 
