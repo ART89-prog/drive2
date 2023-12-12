@@ -241,6 +241,9 @@
     .price:after {
         top: 55%;
     }
+    .step_item {
+        border-radius: 16px;
+    }
 
 
 
