@@ -39,7 +39,7 @@
         gap: 15px;
     }
     .training_item {
-        width: calc(100%/3 - 15px);
+        width: calc(100%/4 - 15px);
         border-radius: 20px;
         padding: 20px 0 0 20px;
     }
