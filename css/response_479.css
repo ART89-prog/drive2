@@ -4,6 +4,9 @@
         --font_size_title: 18px;
         --font_size: 12px;
     }
+    .price_title {
+        font-size: 18px;
+    }
 
     .first-section .btn {
         width: 100%;
@@ -22,7 +25,7 @@
         margin-bottom: 10px;
     }
     .callback_wrap:before {
-        left: -997px;
+        left: -980px;
     }
     .callback_form-title {
         font-size: 16px;
@@ -93,8 +96,34 @@
         width: 24px;
         margin-left: 20px;
     }
- 
-    
+    .plan_bottom-item-img {
+        position: absolute;
+        bottom: -35px;
+        right: -30px;
+        width: 108px;
+        height: auto;
+    }
+    .plan_bottom-item-img img {
+        width: 100%;
+    }
+    .plan_bottom-item-info {
+        width: calc(100% - 65px);
+    }
+    .plan_bottom-item {
+        min-height: auto;
+    }
+    .price_summa {
+        font-size: 24px;
+    }
+    .price_category {
+        font-size: 14px;
+    }
+    .price {
+        padding-bottom: 40px;
+    }
+    .program_item:before {
+        right: -82%;
+    }
     
 
 

@@ -3,6 +3,9 @@
     :root {
         --font_size_title: 30px;
     }
+    .price_title {
+        font-size: 30px;
+    }
     header .mob_menu_btn {
         display: flex;
         order: 1;
@@ -182,7 +185,7 @@
         width: 100%;
     }
     .step_items {
-        row-gap: 20px;
+        row-gap: 8px;
         column-gap: 0px;
     }
     .step_item-icon {
@@ -210,6 +213,36 @@
     .plan_bottom-item-info {
         width: calc(100% - 130px);
     }
+    .price_info {
+        margin-left: 120px;
+    }
+    .price_title {
+        padding-left: 120px;
+    }
+    .price_img {
+        margin-top: -73px;        
+    }
+    .price_img img {
+        width: 100%;
+        height: auto;
+    }
+    .price_summa {
+        font-size: 36px;
+    }
+    .price_category {
+        font-size: 18px;
+    }
+    .price .cont:before {
+        top: -50px;
+    }
+    .price {
+        padding: 20px 0 25px;
+    }
+    .price:after {
+        top: 55%;
+    }
+
+
 
 
     

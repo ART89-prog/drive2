@@ -4,6 +4,9 @@
         --font_size_title: 36px;
         --font_size: 18px;
     }
+    .price_title {
+        font-size: 36px;
+    }
     .first-section_info ul li {
         font-size: 22px;
     }
@@ -119,6 +122,12 @@
     }
     .btn-mob {
         display: block;
+    }
+    .price_summa {
+        font-size: 44px;
+    }
+    .price_category {
+        font-size: 22px;
     }
 
 
