@@ -646,7 +646,7 @@ header .menu .item a:hover {
 .program_items {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    margin-left: -30px;
 }
 .program_item {
     display: flex;
@@ -656,6 +656,7 @@ header .menu .item a:hover {
     padding: 25px 0px 0px 40px;
     overflow: hidden;
     width: calc(100%/3 - 30px);
+    margin-left: 30px;
 }
 .program_item.hide {
     display: none;
@@ -667,8 +668,21 @@ header .menu .item a:hover {
     display: none;
 }
 .program_item-info {
-    width: calc(100% - 250px);
     padding: 9px 0 72px 0;
+}
+.program_item:nth-child(1) .program_item-info {
+    width: calc(100% - 230px);
+}
+.program_item:nth-child(2) .program_item-info {
+    width: calc(100% - 255px);
+}
+.program_item:nth-child(3) .program_item-info {
+    width: calc(100% - 320px);
+}
+
+
+.program_item:nth-child(3) .program_item-icon {
+    margin-right: -90px;
 }
 .program_item-title {
     color: #000;
@@ -699,7 +713,7 @@ header .menu .item a:hover {
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-right: -100px;
+    margin-right: -133px;
 }
 .program_item-icon img {
     -webkit-transform: skew(20deg);
