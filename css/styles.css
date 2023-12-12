@@ -647,6 +647,7 @@ header .menu .item a:hover {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+    margin-bottom: -30px;
 }
 .program_item {
     display: flex;
@@ -657,6 +658,22 @@ header .menu .item a:hover {
     overflow: hidden;
     width: calc(100%/3 - 30px);
     margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.program_item:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--text_color);
+    right: -78%;
+    top: 0;
+    border-radius: 20px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    z-index: 0;
 }
 .program_item.hide {
     display: none;
@@ -680,10 +697,10 @@ header .menu .item a:hover {
     width: calc(100% - 320px);
 }
 .program_item:nth-child(4) .program_item-info {
-    width: calc(100% - 320px);
+    width: calc(100% - 340px);
 }
 .program_item:nth-child(5) .program_item-info {
-    width: calc(100% - 320px);
+    width: calc(100% - 380px);
 }
 
 
@@ -705,38 +722,23 @@ header .menu .item a:hover {
     line-height: normal;
 }
 .program_item-icon {
-    width: 284px;
-	height: 100%;
 	-webkit-transform: skew(-20deg);
 	-moz-transform: skew(-20deg);
-	-o-transform: skew(-20deg);
-	background: var(--text_color);
-    border-radius: 20px;
-    border-bottom-left-radius: 0;   
+	-o-transform: skew(-20deg); 
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-right: -194px;
 }
 .program_item-icon img {
     -webkit-transform: skew(20deg);
     -moz-transform: skew(20deg);
     -o-transform: skew(20deg);
-    margin-left: -140px;
 }
 .program_item:nth-child(4),
 .program_item:nth-child(5) {
     width: calc(100%/2 - 30px);
 }
-.program_item:nth-child(3) .program_item-icon {
-    margin-right: -90px;
-}
-.program_item:nth-child(4) .program_item-icon img {
-    margin-left: -280px;
-}
-.program_item:nth-child(5) .program_item-icon img {
-    margin-left: -280px;
-}
+
 
 
 .plan {
@@ -759,7 +761,8 @@ header .menu .item a:hover {
     font-size: var(--font_size);
     font-style: normal;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal; 
+    width: 50%;   
 }
 .plan_subtitle {
     color: #4E4E4E;
@@ -774,8 +777,8 @@ header .menu .item a:hover {
     display: flex;
     gap: 30px; 
 }
-.plan_bottom > * {
-    width: calc(100%/2 - 30px);
+.plan_bottom-item-info {
+    width: calc(100% - 160px);
 }
 .plan_bottom-item {
     border-radius: 32px;
@@ -788,8 +791,9 @@ header .menu .item a:hover {
     font-weight: 400;
     line-height: normal;    
     position: relative;
-    padding: 36px 180px 36px 36px;
+    padding: 36px;
     overflow: hidden;
+    width: 50%;
 }
 .plan_bottom-item-img {
     position: absolute;
@@ -1011,6 +1015,7 @@ header .menu .item a:hover {
     background: var(--text_color);
     margin-right: -115px;
     border-top-left-radius: 20px;
+    min-height: 100px;
 }
 .step_item-title {
     color: #4E4E4E;
@@ -1050,15 +1055,11 @@ header .menu .item a:hover {
 .price:before {
     position: absolute;
     content: "";
-    width: 1099px;
-    height: calc(100% + 110px);
+    width: calc(100% - 504px);
+    height: 100%;
     background: var(--text_color);
-    left: -625px;
+    right: calc(100% - 224px);
     top: -60px;
-    border-radius: 63px;
-    -webkit-transform: skew(-16deg);
-    -moz-transform: skew(-16deg);
-    -o-transform: skew(-16deg);
     z-index: 0;
 }
 .price:after {
@@ -1075,6 +1076,20 @@ header .menu .item a:hover {
     -o-transform: skew(-16deg);
     z-index: 1;
 }
+.price .cont:before {
+    position: absolute;
+    content: "";
+    width: calc(100% - 504px);
+    height: calc(100% + 160px);
+    background: var(--text_color);
+    right: calc(100% - 400px);
+    top: -80px;
+    border-radius: 63px;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    z-index: 0;
+}
 .price_wrap {
     display: flex;
     gap: 46px;
@@ -1083,14 +1098,16 @@ header .menu .item a:hover {
     margin-left: 424px;
 }
 .price_title {
-    margin-left: 60px;
+    padding-left: 60px;
     color: #000;
-    font-size: var(--font_size_title);
+    font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     font-family: var(--font_family1);
     margin-bottom: 10px;
+    z-index: 11;
+    position: relative;
 }
 .price_title span {
     color: #fff;
@@ -1116,6 +1133,9 @@ header .menu .item a:hover {
 .price_img {
     z-index: 2;
     margin-top: -117px;
+}
+.btn-mob {
+    display: none;
 }
 
 

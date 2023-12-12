@@ -62,8 +62,8 @@
         position: absolute;
         display: block;
         width: 124px;
-        height: 70px;
-        top: 7px;
+        height: 80px;
+        top: 0px;
         right: 20px;
         z-index: 99;
     }
@@ -72,12 +72,26 @@
         height: 100%;
         object-fit: cover;
     }
-    .program_item-icon img {
-        width: 32px;
-        margin-left: 24px;
-    }
     .link-more.btn {
         font-size: 16px;
+    }
+    .step_item-title {
+        width: calc(100% - 95px);
+    }
+    .step_item-icon span {
+        margin-left: 25px;
+    }
+    .step_item-icon {
+        font-size: 24px;
+        width: 144px;
+        height: 100%;
+        margin-right: -85px;
+        border-top-left-radius: 20px;
+        min-height: 100px;
+    }   
+    .step_item-icon img {
+        width: 24px;
+        margin-left: 20px;
     }
  
     
