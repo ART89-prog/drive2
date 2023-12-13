@@ -51,6 +51,9 @@
     .program_item:nth-child(3) {
         width: calc(100%/2 - 30px);
     }
+    .program_item:nth-child(5) {
+        width: 100%;
+    } 
 
 
 
