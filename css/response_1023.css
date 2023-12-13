@@ -244,7 +244,9 @@
     .step_item {
         border-radius: 16px;
     }
-
+    .callback_wrap:before {
+        left: -620px;
+    }
 
 
 

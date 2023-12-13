@@ -827,7 +827,7 @@ header .menu .item a:hover {
     width: 1099px;
     height: calc(100% + 180px);
     background: var(--text_color);
-    left: -950px;
+    left: -460px;
     top: -90px;
     border-radius: 63px;
     -webkit-transform: skew(-16deg);
