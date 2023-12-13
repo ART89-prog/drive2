@@ -1211,24 +1211,3 @@ footer .menu .item:hover  a{
 }
 
 
-
-
-.modal {
-    max-width: 300px;    
-    padding: 80px 25px;
-    border-radius: 15px;
-    display: none;
-}
-.modal_title{
-    color: var(--text_color);
-    font-family: var(--font_family1);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    text-align: center;
-}
-.fancybox__content>.carousel__button.is-close {
-    top: 0px;
-}
